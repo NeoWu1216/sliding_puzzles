@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/go_back_to_main"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:id="@+id/go_back_to_main_menu_item" />
+
+    <item
+        android:title="@string/show_hide_goal"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:id="@+id/show_hide_goal_menu_item" />
+</menu>

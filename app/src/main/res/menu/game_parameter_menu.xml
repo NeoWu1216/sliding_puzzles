@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/menu_next"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:id="@+id/next_step_menu_item" />
+    <item
+        android:title="@string/menu_prev"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:id="@+id/prev_step_menu_item" />
+</menu>

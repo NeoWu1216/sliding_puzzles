@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context="com.example.android.imageprocessinggame.SetStartGoalActivity">
+
+
+    <GridView
+        android:id="@+id/swap_grids_start"
+        style="@style/StartGoalGridView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="@string/swap_hint"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent" />
+
+    <GridView
+        android:id="@+id/swap_grids_goal"
+        style="@style/StartGoalGridView"
+        android:layout_marginBottom="0dp"
+        android:paddingBottom="0dp"
+     />
+</LinearLayout>

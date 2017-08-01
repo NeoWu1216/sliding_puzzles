@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.android.imageprocessinggame.FAQ">
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/FAQ_text"
+        android:textColor="@color/colorPrimary"
+        android:scrollbars="vertical"
+        android:id="@+id/FAQ_textView"
+        />
+</FrameLayout>

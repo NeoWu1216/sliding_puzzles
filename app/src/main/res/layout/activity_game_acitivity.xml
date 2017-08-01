@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:id="@+id/game_panel"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context="com.example.android.imageprocessinggame.GameActivity">
+
+
+    <GridView
+        android:id="@+id/game_table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="fill"
+        android:layout_marginBottom="16dp"
+        android:stretchMode="columnWidth"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/bottomLayout"
+        android:layout_weight="5">
+        <Button
+            android:id="@+id/solve_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin = "16dp"
+            android:layout_gravity="center"
+
+            android:background = "@color/colorPrimaryLight"
+            android:textSize="32sp"
+            android:textColor="@color/colorAccent"
+            android:text="@string/auto_solve"
+
+            />
+
+        <GridView
+            android:id="@+id/game_display_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:gravity="fill"
+            android:stretchMode="columnWidth" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
